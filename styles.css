@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -15,6 +16,15 @@ body {
     align-items: center;
 }
 
+#scoreBox {
+    position: absolute;
+    top: 9px;
+    left: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
 #board {
     background: linear-gradient(rgb( 170, 236, 170), rgb(236, 236, 236));
     width: 90vmin;
@@ -22,13 +32,24 @@ body {
     border: 2px solid black;
     display: grid;
     grid-template-rows: repeat(18, 1fr);
-    grid-template-columns: (18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
 }
 
 .head {
-    background-color: red;
+    background-color: rgb(7, 7, 7);
+    border: 2px solid purple;
+    transform: scale(1.2);
+    border-radius: 20px;
 }
 
 .food {
-    background-color: aqua;
+    background-color: rgb(64, 119, 28);
+    border: .25vmin solid white;
+    border-radius: 20px;
+}
+
+.snake {
+    background-color: rgb(245, 121, 6);
+    border: .25vmin solid white;
+    border-radius: 12px;
 }
