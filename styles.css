@@ -23,10 +23,11 @@ body {
     font-size: 39px;
     font-weight: bold;
     font-family: 'Anton', sans-serif;
+    color: rgb(123, 241, 123);
 }
 
 #board {
-    background: linear-gradient(rgb( 170, 236, 170), rgb(236, 236, 236));
+    background: linear-gradient(rgb(187, 243, 187), rgb(236, 236, 236));
     width: 90vmin;
     height: 92vmin;
     border: 2px solid black;
@@ -37,19 +38,19 @@ body {
 
 .head {
     background-color: rgb(7, 7, 7);
-    border: 2px solid purple;
+    border: 2px solid rgb(0, 128, 58);
     transform: scale(1.2);
     border-radius: 20px;
 }
 
 .food {
-    background-color: rgb(64, 119, 28);
+    background-color: rgb(209, 88, 66);
     border: .25vmin solid white;
     border-radius: 20px;
 }
 
 .snake {
-    background-color: rgb(245, 121, 6);
+    background-color: rgb(8, 8, 8);
     border: .25vmin solid white;
     border-radius: 12px;
 }
